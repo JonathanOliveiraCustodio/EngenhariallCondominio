@@ -22,13 +22,11 @@ public class Morador implements IMorador {
 		return nome;
 	}
 
-
 	@Override
 	public void setnome(String nome) {
 		// TODO Auto-generated method stub
 		
 	}
-
 
 	@Override
 	public int getcelular() {
