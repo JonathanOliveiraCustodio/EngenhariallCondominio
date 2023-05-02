@@ -10,23 +10,24 @@ public class Principal {
 		// TODO Auto-generated method stub
 		
 		
-		 // 1º Operação Polimorfica
+		 // Operação Polimorfica
 		 Despesas   d1 = new Despesas(null, 0, null, 0, 0, null);
 		 d1.getValor();
+		 d1.getDataVencimento();
 		 
-		 //2° Operação Polimorfica
+		 // Operação Polimorfica
 		 
 		 Pagamentos  p2 = new Pagamentos(null, 0, null, 0, 0, null, null, 0);
 		 p2.setDataPagamento(null);
 		 
-		//3° Operação Polimorfica
+		// Operação Polimorfica
 		 Locacao  l1 = new Locacao(null, 0, null, 0, 0);
 		 l1.setNumeroLocacao(2); 
 		 l1.setnome("João");
 		 l1.setcpf(0);
 		 l1.setNumeroApartamento(10);
 		 
-		//4° Operação Polimorfica
+		// Operação Polimorfica
 		 Pagamentos  p1 = new Pagamentos(null, 0, null, 0, 0, null, null, 0);
 		 
 		 p1.getnumeroPagamento();
