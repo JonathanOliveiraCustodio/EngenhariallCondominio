@@ -19,6 +19,7 @@ public class Principal {
 		 
 		 Pagamentos  p2 = new Pagamentos(null, 0, null, 0, 0, null, null, 0);
 		 p2.setDataPagamento(null);
+		 p2.getDataPagamento();
 		 
 		// Operação Polimorfica
 		 Locacao  l1 = new Locacao(null, 0, null, 0, 0);
